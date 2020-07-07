@@ -1,0 +1,33 @@
+html body {
+  padding-left: 270px;
+  background-color: #eaf0f1;
+  font-family: Poppins;
+}
+
+.nabvBar {
+  background-color: #eaf0f1;
+  box-shadow: none;
+  color: #586776;
+}
+
+.headingContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px;
+  height: 50px;
+}
+.headingContainer .heading-text {
+  font-size: 24px;
+  color: #333945 !important;
+}
+.headingContainer .date-text {
+  font-size: 12px;
+  color: #586776;
+}
+
+@media only screen and (max-width: 992px) {
+  html body {
+    padding-left: 0;
+  }
+}

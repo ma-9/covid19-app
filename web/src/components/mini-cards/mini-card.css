@@ -1,0 +1,27 @@
+.mini-card {
+  background-color: white;
+  width: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px #1b1c1d;
+}
+
+.mini-card .mini-card-header {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.mini-card .mini-card-header i {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.mini-card-body {
+  text-align: center;
+  font-size: 22px;
+}
+
+.mini-card-footer {
+  text-align: center;
+}

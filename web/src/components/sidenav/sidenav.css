@@ -1,0 +1,75 @@
+#slide-out {
+  width: 270px;
+}
+ul {
+  background-color: rgba(53, 137, 214, 1) !important;
+}
+.covidIcon {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-container {
+  color: white;
+}
+.list-container li {
+  margin: 5px 0px;
+}
+.list-container .collapsible-header {
+  justify-content: space-between;
+}
+
+.list-container .collapsible-header:focus,
+.list-container .collapsible-header:active,
+.list-container .collapsible-header:focus-visible {
+  background-color: rgba(53, 137, 214, 1) !important;
+}
+
+.list-container .collapsible-header .innerText {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.list-container .collapsible-body {
+  background-color: rgba(53, 137, 214, 1) !important;
+}
+.list-container .collapsible-body p {
+  padding-left: 40px;
+  margin: 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+.list-container .collapsible-body p:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contactDetails {
+  background-color: #2475b0 !important;
+  margin: 50px 20px;
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 2px;
+}
+.contactDetails p {
+  margin: -20px 0px;
+  padding-left: 15px;
+}
+.contactDetails .callText {
+  margin: 20px 10px;
+  background-color: white;
+  color: #2475b0;
+  border-radius: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.contactDetails .callText:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.contactDetails .callText i {
+  padding-right: 10px;
+}

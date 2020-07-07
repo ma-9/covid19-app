@@ -1,0 +1,30 @@
+.miniCard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.stat-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.geoChart-container .charts {
+  width: 700px;
+  height: 350px;
+}
+
+.stateDetails {
+  height: 350px;
+  width: 500px;
+  background-color: white;
+}
+
+.stateDetails .header {
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
